@@ -1,0 +1,11 @@
+[project]
+name = "who-health-etl"
+version = "1.0.0"
+description = "ETL pipeline for WHO Global Health Observatory data"
+requires-python = ">=3.11"
+dependencies = [
+    "requests>=2.31",
+    "psycopg2-binary>=2.9",
+    "pydantic>=2.0",
+    "python-dotenv>=1.0",
+]
